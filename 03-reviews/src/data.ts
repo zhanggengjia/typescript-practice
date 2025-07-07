@@ -1,4 +1,4 @@
-import type { Person } from './types/review';
+import type { Person } from './types/person';
 
 const reviews: Person[] = [
   {

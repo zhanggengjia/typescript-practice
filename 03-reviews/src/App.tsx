@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import data from './data';
 import { FcNext, FcPrevious } from 'react-icons/fc';
-import type { Person } from './types/review';
+import type { Person } from './types/person';
 import Review from './Review';
 
 function App() {

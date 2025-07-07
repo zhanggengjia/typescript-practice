@@ -1,5 +1,5 @@
 import React, { type ReactElement } from 'react';
-import type { Person } from './types/review';
+import type { Person } from './types/person';
 import { FaQuoteRight } from 'react-icons/fa';
 
 const Review = ({ id, name, job, image, text }: Person): ReactElement => {
