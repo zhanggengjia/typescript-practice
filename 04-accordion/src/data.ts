@@ -1,6 +1,6 @@
-import type { Question } from './types/question';
+import type { QuestionData } from './types/questionProps';
 
-const questions: Question[] = [
+const questions: QuestionData[] = [
   {
     id: 1,
     title: 'Do I have to allow the use of cookies?',

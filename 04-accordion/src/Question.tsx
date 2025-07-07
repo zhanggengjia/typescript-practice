@@ -1,9 +1,9 @@
 import React, { useState, type ReactElement } from 'react';
-import type { Question } from './types/question';
+import type { QuestionProps } from './types/questionProps';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Question = ({ id, title, info }: Question): ReactElement => {
+const Question = ({ id, title, info }: QuestionProps): ReactElement => {
   const [show, setShow] = useState<Boolean>(false);
   return (
     <div className="question">
