@@ -13,9 +13,9 @@ const List = ({ url }: ListProps): ReactElement => {
     Tour[],
     Error,
     Tour[],
-    [string]
+    ['url', string]
   >({
-    queryKey: [url],
+    queryKey: ['url', url],
     queryFn: getData,
   });
 

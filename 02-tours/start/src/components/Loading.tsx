@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { type ReactElement } from 'react';
 
-const Loading: React.FC = () => {
+const Loading = (): ReactElement => {
   return <div className="loading"></div>;
 };
 

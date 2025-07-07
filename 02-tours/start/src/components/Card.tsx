@@ -1,22 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, type ReactElement } from 'react';
+import type { CardProps } from '../types/cardProps';
 
-type CardProps = {
-  image: string;
-  name: string;
-  info: string;
-  price: string;
-  id: string;
-  handleDelete: (id: string) => void;
-};
-
-const Card: React.FC<CardProps> = ({
+const Card = ({
   image,
   name,
   info,
   price,
   id,
   handleDelete,
-}) => {
+}: CardProps): ReactElement => {
   const [showMore, setShowMore] = useState<boolean>(false);
 
   return (
